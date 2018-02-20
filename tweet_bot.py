@@ -4,11 +4,14 @@ import tweepy
 import requests
 import json
 import random
+import nltk
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import stopwords
 from nltk import RegexpTokenizer
 from nltk import pos_tag
 import sys
+
+nltk.download('stopwords')
 
 stop_words = stopwords.words('english')
 lemmatizer = WordNetLemmatizer()
