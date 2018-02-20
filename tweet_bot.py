@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from keys import *
 import tweepy
 import requests
